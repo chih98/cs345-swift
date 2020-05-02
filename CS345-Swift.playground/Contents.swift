@@ -1,3 +1,5 @@
+// MIT License
+
 import Foundation
 
 // Extension to Float for truncation
@@ -110,7 +112,7 @@ struct TestCase {
         return (endTime ?? 0) - (startTime ?? 0)
     }()
     
-    /// Notice the funcional paradigm of passing a lambda function, or known as
+    /// Notice the functional paradigm of passing a lambda function, or known as
     /// a closure in Swift.
     mutating func runTest(_ passedFunc: () -> ()) {
         startTime = CFAbsoluteTimeGetCurrent()
